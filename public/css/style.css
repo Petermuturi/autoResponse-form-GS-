@@ -1,4 +1,4 @@
-.bg{
+body{
 		webkit-animation-name: colors; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite;
@@ -13,16 +13,32 @@
     75%  {background-color:#47FF67; left:0px; top:200px;}
     100% {background-color:#47FFC3; left:0px; top:0px;}
 }
+.bg{
+	background-color: white;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
 .cent{
 	text-align: center;
 }
-
+textarea{
+	resize: none;
+	height: 150px;
+}
+form{
+	max-width: 100%;
+padding-left: 20%;
+padding-right: 20%;
+}
 .input {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
 	margin: 1em;
-	max-width: 500px;
 	width: 100%;
 	vertical-align: top;
 }
