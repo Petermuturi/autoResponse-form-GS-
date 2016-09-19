@@ -1,18 +1,8 @@
-body{
-		webkit-animation-name: colors; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: infinite;
-    animation-name: colors;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+.body{
+background: url(../img/msg.jpg);
+filter:saturate(8);
 }
-@-webkit-keyframes colors {
-    0%   {background-color:#47FFC3; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:#FF6747; left:200px; top:200px;}
-    75%  {background-color:#47FF67; left:0px; top:200px;}
-    100% {background-color:#47FFC3; left:0px; top:0px;}
-}
+
 .bg{
 	background-color: white;
 	margin-top: 10%;
@@ -24,6 +14,10 @@ body{
 }
 .cent{
 	text-align: center;
+}
+.ttl{
+	font-size: 20px;
+	color: rgba(0,0,0,0.6);
 }
 textarea{
 	resize: none;
