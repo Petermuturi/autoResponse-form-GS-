@@ -1,6 +1,7 @@
 .body{
 background: url(../img/msg.jpg);
 background-repeat: no-repeat;
+background-size: cover;
 filter:saturate(8);
 }
 
